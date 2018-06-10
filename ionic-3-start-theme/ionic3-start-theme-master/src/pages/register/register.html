@@ -3,10 +3,10 @@
   <div class="login-content">
 
     <!-- Logo -->
-    <div padding text-center>
-      <div class="logo"></div>
-      <h2 ion-text class="text-primary">
-        <strong>Ionic 3</strong> Start Theme
+    <div padding-horizontal text-center class="animated fadeInDown">
+      <img class="logo-uea" src="../../assets/img/uea.png">
+      <h2 ion-text class="text">
+        <strong>UEA</strong> Easy Life
       </h2>
     </div>
 
@@ -14,31 +14,31 @@
     <form class="list-form">
       <ion-item>
         <ion-label floating>
-          <ion-icon name="person" item-start class="text-primary"></ion-icon>
-          Full Name
+          <ion-icon name="person" item-start color="green-uea"></ion-icon>
+          <h2 class="text">Nome Completo</h2>
         </ion-label>
         <ion-input type="text"></ion-input>
       </ion-item>
 
       <ion-item>
         <ion-label floating>
-          <ion-icon name="mail" item-start class="text-primary"></ion-icon>
-          Email
+          <ion-icon name="mail" item-start color="green-uea"></ion-icon>
+          <h2 class="text">Email</h2>
         </ion-label>
         <ion-input type="email"></ion-input>
       </ion-item>
 
       <ion-item>
         <ion-label floating>
-          <ion-icon name="lock" item-start class="text-primary"></ion-icon>
-          Password
+          <ion-icon name="lock" item-start color="green-uea"></ion-icon>
+          <h2 class="text">Senha</h2>
         </ion-label>
         <ion-input type="password"></ion-input>
       </ion-item>
     </form>
 
     <div margin-top>
-      <button ion-button block color="dark" tappable (click)="register()">
+      <button ion-button block color="green-uea" tappable (click)="register()">
         SIGN UP
       </button>
 

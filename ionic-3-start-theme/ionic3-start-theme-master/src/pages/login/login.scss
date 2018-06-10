@@ -1,15 +1,15 @@
 page-login,
 .login {
-    .text-primary{
+    .text{
         color: #27ae60;
     }
-    ion-text{
-        color: #27ae60;
+    .text-reg{
+        font-size: 120%;
+    }
+    .text-label{
+        color: #9c9c9c;
     }
     .logo-uea{
         padding-top: 100%;
-    }
-    .botao{
-        background-color: #27ae60;
     }
 }
