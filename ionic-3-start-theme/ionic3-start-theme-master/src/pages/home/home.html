@@ -27,15 +27,11 @@
     </ion-item>
     <ion-item>
       <ion-icon name="md-calendar" color="green-uea" item-left ></ion-icon>
-      <ion-datetime class="no-pl content" color="primary" displayFormat="DD/MM/YYYY" pickerFormat="DD/MM/YYYY" [(ngModel)]="search.date"></ion-datetime>
+      <ion-datetime class="no-pl content" color="green-uea" displayFormat="DD/MM/YYYY" pickerFormat="DD/MM/YYYY" [(ngModel)]="search.date"></ion-datetime>
     </ion-item>
   </ion-card>
 
   <button ion-button icon-start block no-margin color="green-uea" class="round" tappable (click)="doSearch()">
     <ion-icon name="search"></ion-icon> Buscar
   </button>
-
-
-  
-
 </ion-content>

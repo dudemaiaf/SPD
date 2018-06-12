@@ -3,6 +3,10 @@
 // --------------------------------------------------
 
 // global styles
+//.grid {
+//  background-color: #27ae60;
+//}
+
 .primary-bg {
   background-color: color($colors, primary) !important;
 }
@@ -369,6 +373,7 @@ ion-navbar.no-border {
     img {
       border-radius: 50%;
     }
+
   }
   .toolbar-background {
     background-image: linear-gradient(135deg, color($colors, dark), color($colors, primary));

@@ -4,4 +4,9 @@ page-search-location,
 	ion-input::placeholder {
 		color: #fff;
 	}
+	.input{
+		::-webkit-input-placeholder {
+			color: white;
+		 }
+	}
 }
