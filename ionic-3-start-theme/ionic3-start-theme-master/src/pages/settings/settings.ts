@@ -1,6 +1,7 @@
 import {Component} from "@angular/core";
 import {NavController} from "ionic-angular";
 import {LoginPage} from "../login/login";
+import { AngularFireAuth } from "angularfire2/auth";
 
 
 @Component({
@@ -9,11 +10,11 @@ import {LoginPage} from "../login/login";
 })
 export class SettingsPage {
 
-  constructor(public nav: NavController) {
+  constructor(public nav: NavController, private firebase: AngularFireAuth) {
   }
 
   // logout
   logout() {
-    this.nav.setRoot(LoginPage);
+    return this.firebase.auth.signOut();
   }
 }
