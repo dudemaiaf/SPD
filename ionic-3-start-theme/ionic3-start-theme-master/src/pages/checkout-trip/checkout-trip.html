@@ -1,7 +1,7 @@
 <!-- -->
 <ion-header>
 
-  <ion-navbar color="primary">
+  <ion-navbar color="green-uea">
     <ion-title>Activity Checkout</ion-title>
   </ion-navbar>
 
@@ -15,14 +15,14 @@
     <ion-grid padding>
       <ion-row>
         <ion-col width-66>
-          <h5 ion-text color="primary">{{ trip.name }}</h5>
+          <h5 ion-text color="green-uea">{{ trip.name }}</h5>
           <div>
             <span class="bold">{{ trip.sub_name }}</span>
             <br/>
-            <span ion-text color="dark">{{ adults }} Adults</span>
+            <span ion-text color="green-light">{{ adults }} Adults</span>
           </div>
           <div margin-top>
-            <span ion-text color="dark">{{ date | date: 'EEE, MMM dd' }}</span>
+            <span ion-text color="green-light">{{ date | date: 'EEE, MMM dd' }}</span>
             <br/>
             <span ion-text>{{ trip.location }}</span>
           </div>
@@ -33,7 +33,7 @@
         </ion-col>
         <ion-col col-4>
           <span ion-text>Total with Tax</span>
-          <h5 ion-text color="primary" class="bold" no-margin>{{ trip.price_adult * adults | currency:'USD':true }}</h5>
+          <h5 ion-text color="green-uea" class="bold" no-margin>{{ trip.price_adult * adults | currency:'BRL':true }}</h5>
         </ion-col>
       </ion-row>
     </ion-grid>
@@ -41,7 +41,7 @@
 
     <!--more info-->
   <h5>Guest Details</h5>
-  <div class="card round" margin-top>
+  <div class="card round" margin-top >
 
     <ion-list no-margin>
       <ion-item class="primary-bg">
@@ -49,19 +49,19 @@
           <img src="assets/img/avatar.jpeg">
         </ion-avatar>
         <h2 ion-text class="text-white bold">João Firmino</h2>
-        <p ion-text class="text-secondary bold">User</p>
+        <p ion-text class="text-secondary">User</p>
       </ion-item>
     </ion-list>
 
     <div padding>
-      <h5 ion-text color="secondary">Other Guests</h5>
+      <h5 ion-text color="green-uea">Other Guests</h5>
 
       <ion-item no-padding>
-        <ion-label color="dark" stacked>Adult 1 Name:</ion-label>
+        <ion-label color="green-light" stacked>Adult 1 Name:</ion-label>
         <ion-input type="text" placeholder="Ex. Joe Doe" value=""></ion-input>
       </ion-item>
       <ion-item no-padding>
-        <ion-label color="dark" stacked>Child 1 Name:</ion-label>
+        <ion-label color="green-light" stacked>Child 1 Name:</ion-label>
         <ion-input type="text" placeholder="Ex. Joe Doe" value=""></ion-input>
       </ion-item>
     </div>
@@ -69,7 +69,7 @@
 
   <!--payment info-->
   <h5>Payment Methods</h5>
-  <ion-segment color="secondary" [(ngModel)]="paymethods">
+  <ion-segment color="green-uea" [(ngModel)]="paymethods">
     <ion-segment-button value="creditcard" >
       Credit card
     </ion-segment-button>
@@ -170,5 +170,5 @@
   </div>
 
   <!--submit button-->
-  <button ion-button class="round" color="primary" margin-top full tappable (click)="send()">SEND</button>
+  <button ion-button class="round" color="green-uea" margin-top full tappable (click)="send()">SEND</button>
 </ion-content>
