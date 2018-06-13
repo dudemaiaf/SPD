@@ -25,7 +25,7 @@
           <ion-icon name="mail" item-start color="green-uea"></ion-icon>
           <h2 class="text">Email</h2>
         </ion-label>
-        <ion-input type="email"></ion-input>
+        <ion-input type="email" #email></ion-input>
       </ion-item>
 
       <ion-item>
@@ -33,16 +33,16 @@
           <ion-icon name="lock" item-start color="green-uea"></ion-icon>
           <h2 class="text">Senha</h2>
         </ion-label>
-        <ion-input type="password"></ion-input>
+        <ion-input type="password" #password></ion-input>
       </ion-item>
     </form>
 
     <div margin-top>
       <button ion-button block color="green-uea" tappable (click)="register()">
-        CADASTRAR
+        SIGN UP
       </button>
 
-      <p text-center ion-text color="secondary">Ou registre-se com:</p>
+      <p text-center ion-text color="secondary">Or Sign Up with:</p>
 
       <ion-grid>
         <ion-row>
@@ -67,7 +67,7 @@
 
     <!-- Other links -->
     <div text-center margin-top>
-      <span ion-text color="primary" class="conta" tappable (click)="login()">Eu já possuo uma <strong>conta</strong></span>
+      <span ion-text color="primary" tappable (click)="login()">I have an account</span>
     </div>
 
   </div>

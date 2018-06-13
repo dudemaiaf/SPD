@@ -1,5 +1,5 @@
-import {NgModule} from "@angular/core";
-import {IonicApp, IonicModule} from "ionic-angular";
+import {NgModule, ErrorHandler} from "@angular/core";
+import {IonicApp, IonicModule, IonicErrorHandler} from "ionic-angular";
 import {BrowserModule} from '@angular/platform-browser';
 import {HttpClientModule} from '@angular/common/http';
 import {IonicStorageModule} from '@ionic/storage';
@@ -25,12 +25,25 @@ import {TripDetailPage} from "../pages/trip-detail/trip-detail";
 import {TripsPage} from "../pages/trips/trips";
 import {LocalWeatherPage} from "../pages/local-weather/local-weather";
 
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireAuth, AngularFireAuthModule } from 'angularfire2/auth';
+//import { firebaseConfig } from '../config/config';
+
+
 // import services
 // end import services
 // end import services
 
 // import pages
 // end import pages
+const config = {
+      apiKey: "AIzaSyDk-1QwOCUc-87hEhcOsWSRnPr7XtJEgwA",
+      authDomain: "spd-project-ab3ca.firebaseapp.com",
+      databaseURL: "https://spd-project-ab3ca.firebaseio.com",
+      projectId: "spd-project-ab3ca",
+      storageBucket: "spd-project-ab3ca.appspot.com",
+      messagingSenderId: "350805843628"
+};
 
 @NgModule({
   declarations: [
@@ -54,6 +67,8 @@ import {LocalWeatherPage} from "../pages/local-weather/local-weather";
       scrollAssist: true,
       autoFocusAssist: false
     }),
+    AngularFireModule.initializeApp(config),
+    AngularFireAuthModule,
     IonicStorageModule.forRoot({
       name: '__ionic3_start_theme',
         driverOrder: ['indexeddb', 'sqlite', 'websql']
@@ -79,7 +94,9 @@ import {LocalWeatherPage} from "../pages/local-weather/local-weather";
     Keyboard,
     ActivityService,
     TripService,
-    WeatherProvider
+    WeatherProvider,
+    AngularFireAuth,
+    {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
 

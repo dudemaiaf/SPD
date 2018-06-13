@@ -1,9 +1,4 @@
 <!-- -->
-<ion-header>
-  <ion-title>
-    
-  </ion-title>
-</ion-header>
 <ion-content padding class="animated fadeIn login auth-page">
   <div class="login-content">
 
@@ -22,7 +17,7 @@
           <ion-icon name="mail" item-start color="green-uea"></ion-icon>
           <h2 class="text-label">Email</h2>
         </ion-label>
-        <ion-input type="email"></ion-input>
+        <ion-input type="email" #username></ion-input>
       </ion-item>
 
       <ion-item>
@@ -30,7 +25,7 @@
           <ion-icon name="lock" item-start color="green-uea"></ion-icon>
           <h2 class="text-label">Senha</h2>
         </ion-label>
-        <ion-input type="password"></ion-input>
+        <ion-input type="password" #password></ion-input>
       </ion-item>
     </form>
 
