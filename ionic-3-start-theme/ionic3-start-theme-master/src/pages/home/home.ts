@@ -60,6 +60,10 @@ export class HomePage {
     });
   }
 
+  consoleText(text){
+    console.log(text);
+  }
+
 }
 
 //

@@ -21,15 +21,40 @@
 <ion-content padding class="animated fadeIn common-bg">
 
   <ion-card no-margin margin-bottom class="full-width">
-    <ion-item tappable (click)="choosePlace('from')" class="border-bottom">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <button ion-button (click)="consoleText('First Touched!')">
+            First
+          </button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <button ion-button (click)="consoleText('Second Touched!')">
+            Second
+          </button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <button ion-button (click)="consoleText('Third Touched!')">
+            Third
+          </button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    
+    <!--<ion-item tappable (click)="choosePlace('from')" class="border-bottom">
       <ion-icon name="search" color="green-uea" item-left ></ion-icon>
       <span class="content">{{ search.name }}</span>
-    </ion-item>
-    <ion-item>
+    </ion-item>-->
+    <!--
       <ion-icon name="md-calendar" color="green-uea" item-left ></ion-icon>
       <ion-datetime class="no-pl content" color="green-uea" displayFormat="DD/MM/YYYY" pickerFormat="DD/MM/YYYY" [(ngModel)]="search.date"></ion-datetime>
-    </ion-item>
+    </ion-item>-->
   </ion-card>
+  
 
   <button ion-button icon-start block no-margin color="green-uea" class="round" tappable (click)="doSearch()">
     <ion-icon name="search"></ion-icon> Buscar
