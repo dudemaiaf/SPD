@@ -4,7 +4,7 @@
   <ion-navbar class="no-border">
     <ion-title>
       <ion-icon name="cog" color="green-uea"></ion-icon>
-      <span>Settings</span>
+      <span>Configurações</span>
     </ion-title>
   </ion-navbar>
 
@@ -15,11 +15,11 @@
   <ion-item-group>
     <ion-item-divider color="green-uea" class="bold">User Settings</ion-item-divider>
     <ion-item>
-      <ion-label>Language</ion-label>
+      <ion-label>Linguagem</ion-label>
       <ion-select [(ngModel)]="language" cancelText="Cancel" okText="OK">
-        <ion-option value="en-US" selected="true">English (US)</ion-option>
-        <ion-option value="en-GB">English (UK)</ion-option>
-        <ion-option value="pt-BR">Portuguese (BR)</ion-option>
+        <ion-option value="en-US" selected="true">Inglês Americano (US)</ion-option>
+        <ion-option value="en-GB">Inglês Britânico (UK)</ion-option>
+        <ion-option value="pt-BR">Portugues Brasileiro (BR)</ion-option>
       </ion-select>
     </ion-item>
     <ion-item>
@@ -32,27 +32,27 @@
     <ion-item>
       <ion-label>Units</ion-label>
       <ion-select [(ngModel)]="munits" cancelText="Cancel" okText="OK">
-        <ion-option value="M" >Miles (ft²)</ion-option>
+        <ion-option value="M" >Milhas (ft²)</ion-option>
         <ion-option value="K" selected="true">Kilometros (km)</ion-option>
       </ion-select>
     </ion-item>
     <ion-item>
-      <ion-label>Notifications?</ion-label>
+      <ion-label>Notificação</ion-label>
       <ion-toggle checked="true"></ion-toggle>
     </ion-item>
   </ion-item-group>
   <!-- App settings-->
   <ion-item-group>
-    <ion-item-divider color="green-uea" class="bold">App Settings</ion-item-divider>
+    <ion-item-divider color="green-uea" class="bold">Configurações do App</ion-item-divider>
     <ion-item>
-      <span>Clear Private Data</span>
+      <span>Limpar Dados Privados</span>
     </ion-item>
     <ion-item>
       <ion-label>Push Notifications?</ion-label>
       <ion-toggle checked="false"></ion-toggle>
     </ion-item>
     <ion-item>
-      <span>Privacy Policy</span>
+      <span>Política de Privacidade</span>
     </ion-item>
   </ion-item-group>  
 
