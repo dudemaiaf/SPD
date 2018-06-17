@@ -24,27 +24,68 @@
     <ion-grid>
       <ion-row>
         <ion-col>
-          <button ion-button (click)="consoleText('First Touched!')">
-            First
-          </button>
+          <ion-card>
+            <ion-row>
+              <ion-col center text-center>
+                <ion-card-header>
+                  Lanche
+                </ion-card-header>
+                <ion-note>
+                  21 de Junho, 2018
+                </ion-note>
+              </ion-col>
+            </ion-row>
+            <img src="assets/img/coxinha-com-suco.png">
+            <ion-card-content>
+              <p>Coxinha com Suco de Marácuja.</p>
+            </ion-card-content>
+          </ion-card>
         </ion-col>
       </ion-row>
       <ion-row>
         <ion-col>
-          <button ion-button (click)="consoleText('Second Touched!')">
-            Second
-          </button>
+          <ion-col>
+            <ion-card>
+              <ion-row>
+                <ion-col center text-center>
+                  <ion-card-header>
+                    Almoço
+                  </ion-card-header>
+                  <ion-note>
+                    21 de Junho, 2018
+                  </ion-note>
+                </ion-col>
+              </ion-row>
+              <img src="assets/img/almoco.png">
+              <ion-card-content>
+                <p>Acompanhamento: Arroz, feijão e farofa. Guarnição: Purê de Batatas. Prato Principal 1: Carne Assada. Prato Principal 2: Almondegas ao Molho. Sobremesa: Fruta/Suco.</p>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
         </ion-col>
       </ion-row>
       <ion-row>
         <ion-col>
-          <button ion-button (click)="consoleText('Third Touched!')">
-            Third
-          </button>
-        </ion-col>
+        <ion-card>
+          <ion-row>
+            <ion-col center text-center>
+              <ion-card-header>
+                Café da Manhã
+              </ion-card-header>
+              <ion-note>
+                21 de Junho, 2018
+              </ion-note>
+            </ion-col>
+          </ion-row>
+          <img src="assets/img/tapioca-com-cafe.png">
+          <ion-card-content>
+            <p>Desjejum: Café, Leite e Tapioca. Complemento: Manteiga</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
       </ion-row>
     </ion-grid>
-    
+
     <!--<ion-item tappable (click)="choosePlace('from')" class="border-bottom">
       <ion-icon name="search" color="green-uea" item-left ></ion-icon>
       <span class="content">{{ search.name }}</span>
@@ -54,7 +95,7 @@
       <ion-datetime class="no-pl content" color="green-uea" displayFormat="DD/MM/YYYY" pickerFormat="DD/MM/YYYY" [(ngModel)]="search.date"></ion-datetime>
     </ion-item>-->
   </ion-card>
-  
+
 
   <button ion-button icon-start block no-margin color="green-uea" class="round" tappable (click)="doSearch()">
     <ion-icon name="search"></ion-icon> Buscar
