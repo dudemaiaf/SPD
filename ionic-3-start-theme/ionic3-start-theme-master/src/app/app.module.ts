@@ -24,6 +24,8 @@ import {SearchLocationPage} from "../pages/search-location/search-location";
 import {TripDetailPage} from "../pages/trip-detail/trip-detail";
 import {TripsPage} from "../pages/trips/trips";
 import {LocalWeatherPage} from "../pages/local-weather/local-weather";
+import {WalletPage} from "../pages/wallet/wallet";
+import{FundosPage} from "../pages/fundos/fundos";
 
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireAuth, AngularFireAuthModule } from 'angularfire2/auth';
@@ -57,7 +59,9 @@ const config = {
     RegisterPage,
     SearchLocationPage,
     TripDetailPage,
-    TripsPage
+    TripsPage,
+    WalletPage,
+    FundosPage
   ],
   imports: [
     BrowserModule,
@@ -86,7 +90,9 @@ const config = {
     RegisterPage,
     SearchLocationPage,
     TripDetailPage,
-    TripsPage
+    TripsPage,
+    WalletPage,
+    FundosPage
   ],
   providers: [
     StatusBar,

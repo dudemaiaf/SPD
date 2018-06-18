@@ -1,0 +1,22 @@
+page-wallet, .wallet{
+  ion-list {
+    border-radius: 1rem;
+    overflow: hidden;
+
+    ion-item,
+    .item:first-child,
+    .item:last-child {
+      border: none;
+    }
+
+    ion-datetime {
+      padding-left: 0;
+    }
+  }
+  .icon-content{
+    color: #27ae60;
+  }
+  .content{
+    color: #9c9c9c;
+  }
+}

@@ -13,12 +13,50 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/home/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="79" column="47" selection-start-line="79" selection-start-column="47" selection-end-line="79" selection-end-column="47" />
+            <state relative-caret-position="411">
+              <caret line="99" column="88" lean-forward="true" selection-start-line="99" selection-start-column="10" selection-end-line="99" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fundos.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/fundos/fundos.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="94" selection-start-line="25" selection-start-column="94" selection-end-line="25" selection-end-column="94" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fundos.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/fundos/fundos.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fundos.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/fundos/fundos.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wallet.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/wallet/wallet.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="21" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -33,6 +71,14 @@
       <list>
         <option value="$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/login/login.html" />
         <option value="$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/home/home.html" />
+        <option value="$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/app/app.html" />
+        <option value="$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/wallet/wallet.scss" />
+        <option value="$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/wallet/wallet.html" />
+        <option value="$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/wallet/wallet.ts" />
+        <option value="$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/fundos/fundos.scss" />
+        <option value="$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/fundos/fundos.html" />
       </list>
     </option>
   </component>
@@ -92,7 +138,24 @@
               <item name="ionic-3-start-theme" type="462c0819:PsiDirectoryNode" />
               <item name="ionic3-start-theme-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SPD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SPD" type="462c0819:PsiDirectoryNode" />
+              <item name="ionic-3-start-theme" type="462c0819:PsiDirectoryNode" />
+              <item name="ionic3-start-theme-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SPD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SPD" type="462c0819:PsiDirectoryNode" />
+              <item name="ionic-3-start-theme" type="462c0819:PsiDirectoryNode" />
+              <item name="ionic3-start-theme-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="fundos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SPD" type="b2602c69:ProjectViewProjectNode" />
@@ -110,7 +173,7 @@
               <item name="ionic3-start-theme-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
+              <item name="wallet" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -150,11 +213,12 @@
       <updated>1528307317056</updated>
       <workItem from="1528307318323" duration="1207000" />
       <workItem from="1529231967265" duration="1947000" />
+      <workItem from="1529348625580" duration="2716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3154000" />
+    <option name="totallyTimeSpent" value="5870000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -172,8 +236,8 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -186,6 +250,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="47" selection-start-line="79" selection-start-column="47" selection-end-line="79" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/login/login.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-348" />
@@ -205,14 +276,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/home/home.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/settings/settings.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/settings/settings.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -222,19 +285,129 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/settings/settings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/notifications/notifications.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/checkout-trip/checkout-trip.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/app/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/wallet/wallet.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/home/home.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
+        <state relative-caret-position="-561">
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/home/home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="21" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/app/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="921">
+          <caret line="94" column="14" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/wallet/wallet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/wallet/wallet.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/wallet/wallet.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/fundos/fundos.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/fundos/fundos.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="79" column="47" selection-start-line="79" selection-start-column="47" selection-end-line="79" selection-end-column="47" />
+        <state relative-caret-position="411">
+          <caret line="99" column="88" lean-forward="true" selection-start-line="99" selection-start-column="10" selection-end-line="99" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic-3-start-theme/ionic3-start-theme-master/src/pages/fundos/fundos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="94" selection-start-line="25" selection-start-column="94" selection-end-line="25" selection-end-column="94" />
         </state>
       </provider>
     </entry>

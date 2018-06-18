@@ -8,6 +8,7 @@ import { Keyboard } from '@ionic-native/keyboard';
 import { HomePage } from "../pages/home/home";
 import { LoginPage } from "../pages/login/login";
 import { LocalWeatherPage } from "../pages/local-weather/local-weather";
+import { WalletPage} from "../pages/wallet/wallet";
 
 export interface MenuItem {
     title: string;
@@ -54,6 +55,10 @@ export class MyApp {
       //*** Control Keyboard
       this.keyboard.disableScroll(true);
     });
+  }
+
+  goToWallet(){
+    this.nav.push(WalletPage);
   }
 
   openPage(page) {
