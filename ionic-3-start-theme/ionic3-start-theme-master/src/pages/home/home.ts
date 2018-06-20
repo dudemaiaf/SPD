@@ -1,5 +1,5 @@
 import {Component} from "@angular/core";
-import {NavController, PopoverController} from "ionic-angular";
+import {NavController, NavParams, PopoverController} from "ionic-angular";
 import {Storage} from '@ionic/storage';
 
 import {NotificationsPage} from "../notifications/notifications";
@@ -7,6 +7,7 @@ import {SettingsPage} from "../settings/settings";
 import {TripsPage} from "../trips/trips";
 import {SearchLocationPage} from "../search-location/search-location";
 import {CompraPage} from "../compra/compra";
+import {MyApp} from "../../app/app.component";
 
 
 @Component({
@@ -21,7 +22,10 @@ export class HomePage {
     date: new Date().toISOString()
   }
 
-  constructor(private storage: Storage, public nav: NavController, public popoverCtrl: PopoverController) {
+  public  valor: any;
+
+  constructor(private storage: Storage, public nav: NavController, public popoverCtrl: PopoverController, private  navParams: NavParams) {
+    this.valor = this.navParams.get('valor');
   }
 
   ionViewWillEnter() {
@@ -61,6 +65,9 @@ export class HomePage {
     });
   }
 
+  presentMenu(){
+    this.nav.push(MyApp, {valor: this.valor});
+  }
   consoleText(text){
     console.log(text);
   }

@@ -1,5 +1,5 @@
 import { Component, ViewChild } from "@angular/core";
-import { Platform, Nav } from "ionic-angular";
+import {Platform, Nav, NavParams} from "ionic-angular";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -23,7 +23,8 @@ export interface MenuItem {
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = LoginPage;
+  rootPage: any = HomePage;
+  public  valor: any = 15.00;
 
   appMenuItems: Array<MenuItem>;
 
@@ -31,10 +32,11 @@ export class MyApp {
     public platform: Platform,
     public statusBar: StatusBar,
     public splashScreen: SplashScreen,
-    public keyboard: Keyboard
+    public keyboard: Keyboard,
+    public navParams: NavParams
   ) {
     this.initializeApp();
-
+    this.valor = this.navParams.get('valor');
     this.appMenuItems = [
       {title: 'Home', component: HomePage, icon: 'home'},
     ];
@@ -58,7 +60,7 @@ export class MyApp {
   }
 
   goToWallet(){
-    this.nav.push(WalletPage);
+    this.nav.push(WalletPage, {valor: this.valor});
   }
 
   openPage(page) {

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {HomePage} from "../home/home";
 
 /**
  * Generated class for the CompraPage page.
@@ -15,7 +16,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class CompraPage {
 
+  public valor: any;
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.valor = this.navParams.get('valor');
   }
 
   ionViewDidLoad() {
@@ -23,7 +27,7 @@ export class CompraPage {
   }
 
   rockHardOrGoHome(){
-    this.navCtrl.popToRoot();
+    this.navCtrl.setRoot(HomePage, {valor: this.valor});
   }
 
 }

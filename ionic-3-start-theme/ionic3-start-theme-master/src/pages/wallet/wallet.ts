@@ -16,7 +16,10 @@ import {FundosPage} from "../fundos/fundos";
 })
 export class WalletPage {
 
+  public valor: any;
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.valor = this.navParams.get('valor');
   }
 
   ionViewDidLoad() {
@@ -24,7 +27,7 @@ export class WalletPage {
   }
 
   addFundos(){
-    this.navCtrl.push(FundosPage);
+    this.navCtrl.push(FundosPage, {valor: this.valor});
   }
 
   comeBack(){

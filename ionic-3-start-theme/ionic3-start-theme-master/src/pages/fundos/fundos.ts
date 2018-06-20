@@ -16,15 +16,18 @@ import {CompraPage} from "../compra/compra";
 })
 export class FundosPage {
 
+  private valor: any;
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.valor = this.navParams.get('valor');
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad FundosPage');
   }
 
-  goToShop(){
-    this.navCtrl.push(CompraPage);
+  goToShop(valor){
+    this.navCtrl.push(CompraPage,  {valor: this.valor + valor});
   }
 
 }
