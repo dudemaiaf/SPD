@@ -23,7 +23,7 @@ export interface MenuItem {
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = HomePage;
+  rootPage: any = LoginPage;
   public  valor: any = 15.00;
 
   appMenuItems: Array<MenuItem>;
@@ -33,10 +33,9 @@ export class MyApp {
     public statusBar: StatusBar,
     public splashScreen: SplashScreen,
     public keyboard: Keyboard,
-    public navParams: NavParams
   ) {
     this.initializeApp();
-    this.valor = this.navParams.get('valor');
+    //this.valor = this.navParams.get('valor');
     this.appMenuItems = [
       {title: 'Home', component: HomePage, icon: 'home'},
     ];
