@@ -25,10 +25,12 @@ import {TripDetailPage} from "../pages/trip-detail/trip-detail";
 import {TripsPage} from "../pages/trips/trips";
 import {LocalWeatherPage} from "../pages/local-weather/local-weather";
 import {WalletPage} from "../pages/wallet/wallet";
-import{FundosPage} from "../pages/fundos/fundos";
+import {FundosPage} from "../pages/fundos/fundos";
+import {CompraPage} from "../pages/compra/compra";
 
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireAuth, AngularFireAuthModule } from 'angularfire2/auth';
+import { DatabaseProvider } from '../providers/database/database';
 //import { firebaseConfig } from '../config/config';
 
 
@@ -61,7 +63,8 @@ const config = {
     TripDetailPage,
     TripsPage,
     WalletPage,
-    FundosPage
+    FundosPage,
+    CompraPage
   ],
   imports: [
     BrowserModule,
@@ -92,7 +95,8 @@ const config = {
     TripDetailPage,
     TripsPage,
     WalletPage,
-    FundosPage
+    FundosPage,
+    CompraPage
   ],
   providers: [
     StatusBar,
@@ -102,7 +106,8 @@ const config = {
     TripService,
     WeatherProvider,
     AngularFireAuth,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    DatabaseProvider
   ]
 })
 

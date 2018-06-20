@@ -6,6 +6,7 @@ import {NotificationsPage} from "../notifications/notifications";
 import {SettingsPage} from "../settings/settings";
 import {TripsPage} from "../trips/trips";
 import {SearchLocationPage} from "../search-location/search-location";
+import {CompraPage} from "../compra/compra";
 
 
 @Component({
@@ -62,6 +63,10 @@ export class HomePage {
 
   consoleText(text){
     console.log(text);
+  }
+
+  goToShop(){
+    this.nav.push(CompraPage);
   }
 
 }

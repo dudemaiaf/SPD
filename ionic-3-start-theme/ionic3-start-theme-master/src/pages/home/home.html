@@ -39,7 +39,7 @@
             <ion-card-content>
               <p>Coxinha com Suco de Marácuja.</p>
             </ion-card-content>
-            <button ion-button color="green-uea" class="round" tappable>
+            <button ion-button color="green-uea" class="round" tappable (click)="goToShop()">
               R$ 0,50
             </button>
           </ion-card>
@@ -94,15 +94,8 @@
       </ion-col>
       </ion-row>
     </ion-grid>
-
-    <!--<ion-item tappable (click)="choosePlace('from')" class="border-bottom">
-      <ion-icon name="search" color="green-uea" item-left ></ion-icon>
-      <span class="content">{{ search.name }}</span>
-    </ion-item>-->
-    <!--
-      <ion-icon name="md-calendar" color="green-uea" item-left ></ion-icon>
-      <ion-datetime class="no-pl content" color="green-uea" displayFormat="DD/MM/YYYY" pickerFormat="DD/MM/YYYY" [(ngModel)]="search.date"></ion-datetime>
-    </ion-item>-->
   </ion-card>
-
+  <ion-card-content>
+    <p>*Imagens meramente ilustrativas, não sujeitos a devolução.*</p>
+  </ion-card-content>
 </ion-content>

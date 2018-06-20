@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import {CompraPage} from "../compra/compra";
 
 /**
- * Generated class for the FundosPage page.
+ * Generated class for the CompraPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,20 +10,20 @@ import {CompraPage} from "../compra/compra";
 
 @IonicPage()
 @Component({
-  selector: 'page-fundos',
-  templateUrl: 'fundos.html',
+  selector: 'page-compra',
+  templateUrl: 'compra.html',
 })
-export class FundosPage {
+export class CompraPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad FundosPage');
+    console.log('ionViewDidLoad CompraPage');
   }
 
-  goToShop(){
-    this.navCtrl.push(CompraPage);
+  rockHardOrGoHome(){
+    this.navCtrl.popToRoot();
   }
 
 }
